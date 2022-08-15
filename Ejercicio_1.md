@@ -16,3 +16,4 @@ Luego elasticsearch almacena todos los logs que configuramos previamente.
 Por último, Kibana es la interfaz de usuario de elasticsearch; en el dashboard podemos visualizar todos los logs centralizados y formateados.
 Mediante esta solución se nos felicita las automatizaciones a futuro.
 
+<img width="680" alt="Captura de Pantalla 2022-08-15 a la(s) 11 45 54" src="https://user-images.githubusercontent.com/111232232/184657751-2db19bec-3016-465c-ab6c-5c9d36ab0162.png">
