@@ -4,9 +4,9 @@ Ejercicio 3:
 
 3)	Describir los controles a nivel de monitoreo que deberían realizarse a un cluster Openshift/Kubernetes, enfocado a los componentes core que hacen que el cluster esté Ready.
 
-### Resolucion
+## Resolucion
 
-## Los controles de monitoreo que deberían realizarse para evitar que en nodo entre en estado not ready son los siguientes:
+### Los controles de monitoreo que deberían realizarse para evitar que en nodo entre en estado not ready son los siguientes:
 
 * Espacio en disco en el nodo
 * Uso de memoria en el nodo
