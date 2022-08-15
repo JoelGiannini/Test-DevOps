@@ -14,6 +14,7 @@ Asegurarse de que en el servividor donde se tenga instalado ansible tenga cruzad
 Ademas es conveninte agregar los servidores en los cuales se va a trabajar en el archivo /etc/ansible/hosts. En este archivo se puede configurar no solo el parque de servidores sino que se pueden generar grupos de servidores para facilitar la tarea.
 
 * Scripts
-[zabbix-agent2.yml](https://docs.github.com/es/communities/documenting-your-project-with-wikis/editing-wiki-content)
+
+[zabbix-agent2.yml](https://github.kyndryl.net/Matias-Joel-Giannini/FREQUENTLY_TASKS/wiki/_Sidebar/_edit)
 [habilitar_port.sh](https://docs.github.com/es/communities/documenting-your-project-with-wikis/editing-wiki-content)
 
