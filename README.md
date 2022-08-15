@@ -1,6 +1,6 @@
-## Test-DevOps
+# Test-DevOps
 
-# Este repositorio contiene un test para medir los conocimientos integrales de DevOps
+## Este repositorio contiene un test para medir los conocimientos integrales de DevOps
 
 1)	Dada una aplicación instanciada en 100 servidores que dejan los logs en /var/log/app.log, proponer una solución para centralizar dichos logs en un servidor(s).
 -	Describir la solución técnica elegida.
