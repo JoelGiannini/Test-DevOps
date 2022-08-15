@@ -1,5 +1,50 @@
 # Test-DevOps
 
 
-
 2)	Armar un playbook en Ansible para instalar zabbix-agent2, sabiendo que Zabbix Server esta en 10.0.0.1 y se tiene el servicio de iptables activo.
+
+### Resolucion:
+
+El script se probo en un solo servidor, por esta razon tiene setiado los parametros hosts: localhost y connection: local.
+En caso que se quiera probar para una instalacion no local hay que modificar los parametros mencionados anteriormente.
+
+Recomendaciones:
+Asegurarse de que en el servividor donde se tenga instalado ansible tenga cruzada las llaves a los equipos a los que se quiera llegar.
+Ademas es conveninte agregar los servidores en los cuales se va a trabajar en el archivo /etc/ansible/hosts. En este archivo se puede configurar no solo el parque de servidores sino que se pueden generar grupos de servidores para facilitar la tarea.
+
+
+Script:
+
+---
+  - name: "Instalar zabbix_agent2"
+    hosts: localhost
+    connection: local
+    tasks:
+    - name: Add multiple repositories into the same file (1/2)
+      ansible.builtin.yum_repository:
+        name: zabbix
+        description: zabbix
+        baseurl: https://repo.zabbix.com/zabbix/4.4/rhel/8/x86_64/
+        gpgcheck: yes
+        gpgkey: https://repo.zabbix.com/RPM-GPG-KEY-ZABBIX-A14FE591
+        enabled: yes
+    - name: Instalando zabbix
+      ansible.builtin.yum:
+        name: zabbix-agent2
+        state: latest
+    - name: configurar server agent
+      ansible.builtin.lineinfile:
+        path: /etc/zabbix/zabbix_agent2.conf
+        regexp: '^Server='
+        line: Server=127.0.0.1,44.201.81.17
+    - name: configurar ServiceActive
+      ansible.builtin.lineinfile:
+        path: /etc/zabbix/zabbix_agent2.conf
+        regexp: '^ServerActive='
+        line: ServerActive=127.0.0.1,44.201.81.17
+    - name: Habilitar puerto 10050
+      ansible.builtin.shell: /etc/ansible/scripts/habilitar_port.sh
+    - name: Start service zabbix
+      ansible.builtin.service:
+        name: zabbix-agent2
+        state: started
