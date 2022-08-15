@@ -11,6 +11,6 @@ Se realizaron los 2 scripts en 1 solo.
 
 ## Scripts
 
-[ejercicio_github.py](https://docs.github.com/es/communities/documenting-your-project-with-wikis/editing-wiki-content)
+[ejercicio_github.py](https://github.com/JoelGiannini/Test-DevOps/blob/main/ejercicio_github.py)
 
 
