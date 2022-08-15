@@ -1,6 +1,6 @@
 # Test-DevOps
 
-## Este repositorio contiene un test para medir los conocimientos integrales de DevOps
+## Este repositorio contiene un test para medir conocimientos integrales de DevOps
 
 ### Preguntas:
 
