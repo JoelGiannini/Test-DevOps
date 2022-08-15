@@ -13,6 +13,7 @@ Recomendaciones:
 Asegurarse de que en el servividor donde se tenga instalado ansible tenga cruzada las llaves a los equipos a los que se quiera llegar.
 Ademas es conveninte agregar los servidores en los cuales se va a trabajar en el archivo /etc/ansible/hosts. En este archivo se puede configurar no solo el parque de servidores sino que se pueden generar grupos de servidores para facilitar la tarea.
 
-
-El script se enceuntra en el archivo zabbix-agent2.yml dentro de este mismo repositorio.
+* Scripts
+[zabbix-agent2.yml](https://docs.github.com/es/communities/documenting-your-project-with-wikis/editing-wiki-content)
+[habilitar_port.sh](https://docs.github.com/es/communities/documenting-your-project-with-wikis/editing-wiki-content)
 
