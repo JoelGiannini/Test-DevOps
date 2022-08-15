@@ -18,6 +18,8 @@ ejemplo la coneccion ssh se realizo "ssh -q $i" donde i es la variable de servid
 
 ### Se detallan uns print de pantalla con la corrida del script:
 
+
+<img width="923" alt="Captura de Pantalla 2022-08-15 a la(s) 13 36 56" src="https://user-images.githubusercontent.com/111232232/184677098-86ee6368-024a-4125-9a85-46d2e410c4c8.png">
 <img width="552" alt="Captura de Pantalla 2022-08-14 a la(s) 20 20 10" src="https://user-images.githubusercontent.com/111232232/184676427-f9ec181d-90f5-4899-9ca8-34b07e0d74d5.png">
 <img width="428" alt="Captura de Pantalla 2022-08-14 a la(s) 20 22 19" src="https://user-images.githubusercontent.com/111232232/184676441-d67e300a-10f8-4edf-948d-278a39ef76cb.png">
 <img width="480" alt="Captura de Pantalla 2022-08-14 a la(s) 20 24 14" src="https://user-images.githubusercontent.com/111232232/184676447-83eb8546-0227-4808-82f4-a8959876dadd.png">
