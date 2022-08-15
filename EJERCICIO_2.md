@@ -4,7 +4,7 @@ Ejercicio 2:
 
 2)	Armar un playbook en Ansible para instalar zabbix-agent2, sabiendo que Zabbix Server esta en 10.0.0.1 y se tiene el servicio de iptables activo.
 
-### Resolucion:
+## Resolucion:
 
 El script se probo en un solo servidor, por esta razon tiene setiado los parametros hosts: localhost y connection: local.
 En caso que se quiera probar para una instalacion no local hay que modificar los parametros mencionados anteriormente.
