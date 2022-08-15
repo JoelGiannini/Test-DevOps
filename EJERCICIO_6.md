@@ -7,7 +7,10 @@
 2.	Elegir un repositorio de este usuario y exportar los tags en formato csv con los datos Nombre y Commit
 
 # Resolucion
-
 Se realizaron los 2 scripts en 1 solo.
 
-El script se llama ejercicio_github.py y se encuentra en este mismo repositorio junto con la salida github.csv
+## Scripts
+
+[ejercicio_github.py](https://docs.github.com/es/communities/documenting-your-project-with-wikis/editing-wiki-content)
+
+
