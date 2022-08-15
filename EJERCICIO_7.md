@@ -12,8 +12,9 @@ Igualmente se dejo preparado para que filtre por la ip 8.8.8.8:443 con otra line
 
 El script se llama close_wait_verif.sh y se encuentra en este repositorio junto con la salida que se llama close_wait.log.
 
-Detalles a tener en cuenta: el script se probo en un servidor satellite que esta configurado para que un deterimnado usuario pueda acceder a los servidores con root
-en caso de que se quiera probar la corrida dependiendo de como este configurado el acceso a los servidores se debera agregar el usuario que tenga acceso a los equipos.
+### Detalles a tener en cuenta: 
+El script se probo en un servidor satellite que esta configurado para que un deterimnado usuario pueda acceder a los servidores con root en caso 
+de que se quiera probar la corrida dependiendo de como este configurado el acceso a los servidores se debera agregar el usuario que tenga acceso a los equipos.
 ejemplo la coneccion ssh se realizo "ssh -q $i" donde i es la variable de servidor, en caso de requerir un usuario especifico deberia quedar "ssh -q user@$i".
 
 ### Se detallan unos print de pantalla con la corrida del script:
