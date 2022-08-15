@@ -6,40 +6,25 @@
 -	ocp-instancia-01
 -	ocp-instancia-02
 
-### Resolucion
+### Resolución
 
-La solicion que yo consideraria seria configurar un servicio de load balance aplicandole la prioridad y preferencia de pods 
+La solución sería configurar un servicio de load-balance aplicándole la prioridad y preferencia de pods 
 creando un objeto de PriorityClass usando priorityClassName en las especificaciones del pod
 
 
 ### Ejemplo de PriorityClass:
-apiVersion: scheduling.k8s.io/v1
-kind: PriorityClass
-metadata:
-  name: high-priority 
-value: 1000000 
-preemptionPolicy: PreemptLowerPriority 
-globalDefault: false 
-description: "This priority class should be used for XYZ service pods only." 
+
+ <img width="659" alt="Captura de Pantalla 2022-08-15 a la(s) 19 53 26" src="https://user-images.githubusercontent.com/111232232/184734291-2dcdbb4e-608e-4b77-9de8-fcfa976649b1.png">
 
 ### Procedimiento: 
 
-* Crea una clases prioridad
+* Crea una clase prioridad
 * Editar los pods existentes para incluir el nombre de PriorityClass
 
-Ejemplo de configuracion de pod con asociado a una PriorityClass:
+Ejemplo de configuración de pod con asociado a una PriorityClass:
 
-apiVersion: v1
-kind: Pod
-metadata:
-  name: nginx
-  labels:
-    env: test
-spec:
-  containers:
-  - name: nginx
-    image: nginx
-    imagePullPolicy: IfNotPresent
-  priorityClassName: high-priority
+<img width="316" alt="Captura de Pantalla 2022-08-15 a la(s) 19 52 56" src="https://user-images.githubusercontent.com/111232232/184734377-33a846e8-4fcc-4a22-8822-3ab9ce40af26.png">
+
   
-  
+ 
+
