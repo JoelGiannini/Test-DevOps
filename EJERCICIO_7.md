@@ -11,6 +11,13 @@ con esa ip en cuestion.
 Igualmente se dejo preparado para que filtre por la ip 8.8.8.8:443 con otra linea comentada para que valide solo las conecciones en CLOSE_WAIT.
 
 El script se llama close_wait_verif.sh y se encuentra en este repositorio junto con la salida que se llama close_wait.log.
+## Scripts
+
+[close_wait_verif.sh](https://docs.github.com/es/communities/documenting-your-project-with-wikis/editing-wiki-content)
+
+## Salida
+
+[close_wait.log](https://docs.github.com/es/communities/documenting-your-project-with-wikis/editing-wiki-content)
 
 ### Detalles a tener en cuenta: 
 El script se probo en un servidor satellite que esta configurado para que un deterimnado usuario pueda acceder a los servidores con root en caso 
