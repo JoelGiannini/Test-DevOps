@@ -1,0 +1,78 @@
+####### server #######
+Linux at3k2vc102
+####### Fecha #######
+Sun Aug 14 20:21:11 ART 2022
+####### Verificacion CLOSE_WAIT #######
+####### server #######
+Linux dbacumcompt01.tgtarg.com
+####### Fecha #######
+Sun Aug 14 20:21:15 ART 2022
+####### Verificacion CLOSE_WAIT #######
+####### server #######
+Linux dbacumcompt02.tgtarg.com
+####### Fecha #######
+Sun Aug 14 20:21:17 ART 2022
+####### Verificacion CLOSE_WAIT #######
+####### server #######
+SunOS bahq93-11v
+####### Fecha #######
+Sunday, August 14, 2022 08:21:22 PM ART
+####### Verificacion CLOSE_WAIT #######
+####### server #######
+AIX serve125
+####### Fecha #######
+Sun Aug 14 20:21:27 GRNLNDST 2022
+####### Verificacion CLOSE_WAIT #######
+tcp4  serve125.7036   10.204.160.195.40190    CLOSE_WAIT
+tcp4  serve125.52995  serve132.sote.ta.ncube  CLOSE_WAIT
+tcp4  serve125.52128  svaix008.sote.ta.moldf  CLOSE_WAIT
+tcp4  serve125.52129  svaix008.sote.ta.moldf  CLOSE_WAIT
+tcp4  serve125.44889  serve125.pdap-np        CLOSE_WAIT
+tcp4  serve125.45025  serve125.ncube-lm       CLOSE_WAIT
+tcp4  serve125.45647  serve125.pdap-np        CLOSE_WAIT
+tcp4  serve125.45719  serve125.ncube-lm       CLOSE_WAIT
+tcp4  serve125.7036   10.204.160.195.43202    CLOSE_WAIT
+tcp4  serve125.7036   10.204.160.195.43204    CLOSE_WAIT
+tcp4  serve125.46423  serve125.ncube-lm       CLOSE_WAIT
+tcp4  serve125.46539  serve125.ncube-lm       CLOSE_WAIT
+tcp4  serve125.54215  svaix034.sote.ta.ricar  CLOSE_WAIT
+tcp4  serve125.54816  serve218.sote.ta.mload  CLOSE_WAIT
+tcp4  serve125.50869  serve125.smux           CLOSE_WAIT
+tcp4  serve125.33053  svaix008.sote.ta.moldf  CLOSE_WAIT
+tcp4  serve125.33057  svaix008.sote.ta.moldf  CLOSE_WAIT
+tcp4  serve125.33855  svaix008.sote.ta.moldf  CLOSE_WAIT
+tcp4  serve125.33970  svaix008.sote.ta.moldf  CLOSE_WAIT
+tcp4  serve125.52547  serve125.smux           CLOSE_WAIT
+tcp4  serve125.58780  svaix008.sote.ta.moldf  CLOSE_WAIT
+tcp4  serve125.58970  svaix008.sote.ta.moldf  CLOSE_WAIT
+tcp4  serve125.34549  svaix008.sote.ta.moldf  CLOSE_WAIT
+tcp4  serve125.35164  svaix008.sote.ta.moldf  CLOSE_WAIT
+tcp4  serve125.35166  svaix008.sote.ta.moldf  CLOSE_WAIT
+tcp4  serve125.35167  svaix008.sote.ta.moldf  CLOSE_WAIT
+tcp4  serve125.59738  svaix034.sote.ta.ricar  CLOSE_WAIT
+tcp4  serve125.59736  svaix008.sote.ta.moldf  CLOSE_WAIT
+tcp4  serve125.35445  svaix008.sote.ta.moldf  CLOSE_WAIT
+tcp4  serve125.35446  svaix008.sote.ta.moldf  CLOSE_WAIT
+tcp4  serve125.35447  svaix008.sote.ta.moldf  CLOSE_WAIT
+tcp4  serve125.54430  serve125.smux           CLOSE_WAIT
+tcp4  serve125.61465  svaix008.sote.ta.moldf  CLOSE_WAIT
+tcp4  loopback.52756  loopback.smux           CLOSE_WAIT
+tcp4  serve125.33564  serve125.smux           CLOSE_WAIT
+tcp4  serve125.33693  serve125.smux           CLOSE_WAIT
+tcp4  serve125.40089  svaix008.sote.ta.moldf  CLOSE_WAIT
+tcp4  serve125.60028  serve125.smux           CLOSE_WAIT
+tcp4  serve125.43287  serve218.sote.ta.sais   CLOSE_WAIT
+tcp4  loopback.59499  loopback.smux           CLOSE_WAIT
+tcp4  serve125.44124  svaix034.sote.ta.ricar  CLOSE_WAIT
+tcp4  serve125.44114  svaix008.sote.ta.moldf  CLOSE_WAIT
+tcp4  serve125.39532  serve125.smux           CLOSE_WAIT
+tcp4  serve125.46495  svaix008.sote.ta.moldf  CLOSE_WAIT
+tcp4  serve125.46496  svaix008.sote.ta.moldf  CLOSE_WAIT
+tcp4  serve125.46550  svaix008.sote.ta.moldf  CLOSE_WAIT
+tcp   serve125.61363  serve125.ubxd           CLOSE_WAIT
+tcp4  serve125.46740  svaix008.sote.ta.moldf  CLOSE_WAIT
+tcp4  serve125.65507  serve125.smux           CLOSE_WAIT
+tcp4  serve125.47607  svaix008.sote.ta.moldf  CLOSE_WAIT
+tcp4  serve125.47745  svaix034.sote.ta.ricar  CLOSE_WAIT
+tcp4  serve125.41820  serve125.smux           CLOSE_WAIT
+tcp4  serve125.49724  svaix008.sote.ta.moldf  CLOSE_WAIT
