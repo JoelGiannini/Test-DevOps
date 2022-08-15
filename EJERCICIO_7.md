@@ -17,7 +17,7 @@ El script se llama close_wait_verif.sh y se encuentra en este repositorio junto 
 
 ## Salida
 
-[close_wait.log](https://docs.github.com/es/communities/documenting-your-project-with-wikis/editing-wiki-content)
+[close_wait.log](https://github.com/JoelGiannini/Test-DevOps/blob/main/close_wait.log)
 
 ### Detalles a tener en cuenta: 
 El script se probo en un servidor satellite que esta configurado para que un deterimnado usuario pueda acceder a los servidores con root en caso 
