@@ -9,8 +9,14 @@
 # Resolucion
 Se realizaron los 2 scripts en 1 solo.
 
-## Scripts
+### Scripts
 
 [ejercicio_github.py](https://github.com/JoelGiannini/Test-DevOps/blob/main/ejercicio_github.py)
+
+### Salida
+
+[github.csv](https://github.com/JoelGiannini/Test-DevOps/blob/main/github.csv)
+
+
 
 
