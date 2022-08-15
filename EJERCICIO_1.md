@@ -5,7 +5,7 @@
 -	Describir la solución técnica elegida.
 -	Describir en términos técnicos, los cambios a realizar en los servidores de la aplicación como en el servidor que va ser concentrador de los eventos. Y pensando que esta tarea tiene que ser automatizada.
 
-### Resolucion:
+## Resolucion:
 
   La solución más optima es Filebeat + ELK.
 Básicamente seria instalar Filebeat en los servidores de la aplicación y configurarle los logs que queramos recolectar y el output al servidor elasticsearch en el archivo filebeat.yml.
