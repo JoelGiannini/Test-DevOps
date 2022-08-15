@@ -10,5 +10,4 @@
 
 Se realizaron los 2 scripts en 1 solo.
 
-El script se llama ejercicio_github.py.
-
+El script se llama ejercicio_github.py y se encuentra en este mismo repositorio junto con la salida github.csv
