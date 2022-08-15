@@ -17,5 +17,5 @@ Ademas es conveninte agregar los servidores en los cuales se va a trabajar en el
 
 [zabbix-agent2.yml](https://github.com/JoelGiannini/Test-DevOps/blob/main/zabbix-agent2.yml)
 
-[habilitar_port.sh](https://docs.github.com/es/communities/documenting-your-project-with-wikis/editing-wiki-content)
+[habilitar_port.sh](https://github.com/JoelGiannini/Test-DevOps/blob/main/habilitar_port.sh)
 
