@@ -21,7 +21,7 @@ creando un objeto de PriorityClass usando priorityClassName en las especificacio
 * Crea una PriorityClass
 * Editar los pods existentes para incluir el nombre de PriorityClass
 
-Ejemplo de configuración de pod con asociado a una PriorityClass:
+Ejemplo de configuración de pod asociado a una PriorityClass:
 
 <img width="316" alt="Captura de Pantalla 2022-08-15 a la(s) 19 52 56" src="https://user-images.githubusercontent.com/111232232/184734377-33a846e8-4fcc-4a22-8822-3ab9ce40af26.png">
 
