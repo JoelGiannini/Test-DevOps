@@ -10,7 +10,7 @@ Considerando que es para un cluster Openshift o Kubernetes:
 
 ### Resolucion
 
-[Codigo](https://docs.github.com/es/communities/documenting-your-project-with-wikis/editing-wiki-content)
+[Codigo](https://github.com/JoelGiannini/Test-DevOps/blob/main/Ejercicio_5.txt)
 
 ### Prints de pantalla
 
