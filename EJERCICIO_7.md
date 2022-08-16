@@ -10,7 +10,6 @@ Este script se  ejectuto ejecuto sin el filtro por la ip 8.8.8.8:443 debido a qu
 con esa ip en cuestion.
 Igualmente se dejo preparado para que filtre por la ip 8.8.8.8:443 con otra linea comentada para que valide solo las conecciones en CLOSE_WAIT.
 
-El script se llama close_wait_verif.sh y se encuentra en este repositorio junto con la salida que se llama close_wait.log.
 ## Scripts
 
 [close_wait_verif.sh](https://github.com/JoelGiannini/Test-DevOps/blob/main/close_wait_verif.sh)
