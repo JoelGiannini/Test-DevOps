@@ -27,12 +27,12 @@
       ansible.builtin.lineinfile:
         path: /etc/zabbix/zabbix_agent2.conf
         regexp: '^Server='
-        line: Server=127.0.0.1,44.201.81.17
+        line: Server=127.0.0.1,10.0.0.1
     - name: configurar ServiceActive
       ansible.builtin.lineinfile:
         path: /etc/zabbix/zabbix_agent2.conf
         regexp: '^ServerActive='
-        line: ServerActive=127.0.0.1,44.201.81.17
+        line: ServerActive=10.0.0.1
     - name: Habilitar puerto 10050
       ansible.builtin.shell: /etc/ansible/scripts/habilitar_port.sh
     - name: Start service zabbix
