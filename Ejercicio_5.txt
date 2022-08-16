@@ -1,0 +1,47 @@
+Codigo:
+
+[ec2-user@ip-172-31-89-201 ~]$ pwd
+/home/ec2-user
+[ec2-user@ip-172-31-89-201 ~]$ ls -ltr http_server
+total 4
+drwxrwxr-x. 2 ec2-user ec2-user 22 Aug 16 04:48 public-html
+-rw-r--r--. 1 root     root     61 Aug 16 04:50 Dockerfile
+[ec2-user@ip-172-31-89-201 ~]$ cd http_server
+[ec2-user@ip-172-31-89-201 http_server]$ cat Dockerfile
+FROM httpd:2.4
+COPY ./public-html /usr/local/apache2/htdocs/
+[ec2-user@ip-172-31-89-201 http_server]$ pwd
+/home/ec2-user/http_server
+[ec2-user@ip-172-31-89-201 http_server]$ cd public-html/
+[ec2-user@ip-172-31-89-201 public-html]$ ls -ltr
+total 4
+-rw-r--r--. 1 root root 5 Aug 16 04:48 file.txt
+[ec2-user@ip-172-31-89-201 public-html]$ cat file.txt 
+joel
+[ec2-user@ip-172-31-89-201 public-html]$ cd ..
+[ec2-user@ip-172-31-89-201 http_server]$ 
+[ec2-user@ip-172-31-89-201 http_server]$ sudo docker build -t my-apache2 .
+Sending build context to Docker daemon  3.584kB
+Step 1/2 : FROM httpd:2.4
+ ---> f2a976f932ec
+Step 2/2 : COPY /home/ec2-user/http_server/public-html /usr/local/apache2/htdocs/
+COPY failed: file not found in build context or excluded by .dockerignore: stat home/ec2-user/http_server/public-html: file does not exist
+[ec2-user@ip-172-31-89-201 http_server]$ sudo vi Dockerfile
+[ec2-user@ip-172-31-89-201 http_server]$ sudo docker build -t my-apache2 .
+Sending build context to Docker daemon  3.584kB
+Step 1/2 : FROM httpd:2.4
+ ---> f2a976f932ec
+Step 2/2 : COPY ./public-html /usr/local/apache2/htdocs/
+ ---> a65d04dcdccd
+Successfully built a65d04dcdccd
+Successfully tagged my-apache2:latest
+[ec2-user@ip-172-31-89-201 http_server]$ sudo docker run -dit --name joel-running-app -p 8080:80 my-apache2
+2fd69a25f69bc4a8bc882755a86599dc4644a729a5df03c24a1f6c77019d6ee9
+[ec2-user@ip-172-31-89-201 http_server]$ sudo docker ps
+CONTAINER ID   IMAGE        COMMAND              CREATED         STATUS         PORTS                                   NAMES
+2fd69a25f69b   my-apache2   "httpd-foreground"   2 minutes ago   Up 2 minutes   0.0.0.0:8080->80/tcp, :::8080->80/tcp   joel-running-app
+[ec2-user@ip-172-31-89-201 http_server]$ curl http://localhost:8080 
+<html><body><h1>It works!</h1></body></html>
+[ec2-user@ip-172-31-89-201 http_server]$ curl http://localhost:8080/file.txt 
+joel
+[ec2-user@ip-172-31-89-201 http_server]$ 
