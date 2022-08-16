@@ -12,7 +12,7 @@ Considerando que es para un cluster Openshift o Kubernetes:
 
 [Codigo](https://github.com/JoelGiannini/Test-DevOps/blob/main/Ejercicio_5.txt)
 
-### Prints de pantalla
+### Prints de pantallas
 
 <img width="458" alt="Captura de Pantalla 2022-08-16 a la(s) 02 11 50" src="https://user-images.githubusercontent.com/111232232/184804765-0ce51d14-3cc8-4bd2-a0f5-5b99fd919fbc.png">
 
