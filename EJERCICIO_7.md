@@ -2,7 +2,7 @@
 
 ## Ejercicio 7
 
-7)	Automatizar un proceso el cual se conecta a servidores linux y verifica cuantos CLOSE_WAIT existen en el servidor hacia un la direccion 8.8.8.8:443
+7)	Automatizar un proceso el cual se conecta a servidores linux y verifica cuantos CLOSE_WAIT existen en el servidor hacia la direccion 8.8.8.8:443
 
 ### Resolucion
 
