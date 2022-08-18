@@ -6,7 +6,7 @@ Ejercicio 2:
 
 ## Resolucion:
 
-El script se probo en un solo servidor, por esta razon tiene setiado los parametros hosts: localhost y connection: local.
+El script se probo en una instalación local y teniendo en cuenta que el Zabbix server es 44.201.81.17 (en el script se apunta a 10.0.0.1 como pide el ejercicio), por esta razon tiene setiado los parametros hosts: localhost y connection: local.
 En caso que se quiera probar para una instalacion no local hay que modificar los parametros mencionados anteriormente.
 
 Recomendaciones:
