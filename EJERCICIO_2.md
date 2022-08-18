@@ -19,3 +19,11 @@ Ademas es conveninte agregar los servidores en los cuales se va a trabajar en el
 
 [habilitar_port.sh](https://github.com/JoelGiannini/Test-DevOps/blob/main/habilitar_port.sh)
 
+### Prints de pantallas
+
+<img width="1116" alt="Captura de Pantalla 2022-08-18 a la(s) 01 03 42" src="https://user-images.githubusercontent.com/111232232/185292033-2c888d91-74a3-462b-b366-6dc63b6472da.png">
+
+<img width="598" alt="Captura de Pantalla 2022-08-18 a la(s) 01 05 34" src="https://user-images.githubusercontent.com/111232232/185292058-2d64f1c0-5af2-4873-bdfe-02a88515a374.png">
+
+<img width="875" alt="Captura de Pantalla 2022-08-18 a la(s) 01 09 11" src="https://user-images.githubusercontent.com/111232232/185292082-0ee53c00-75d2-4dac-a17f-3b27ce8e6a16.png">
+
